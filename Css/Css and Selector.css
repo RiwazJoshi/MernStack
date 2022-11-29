@@ -1,0 +1,67 @@
+/*
+Syntax
+      Selector{
+        key/property : value
+      }
+      Selectors
+         -Id    #
+         -Class   .
+         -Element
+      combined selector
+        -Descended selector
+        -Direct child selector
+
+        ************************
+        -adjecent sibling selector
+        -general sibling selector
+       
+      Attribute selector  
+           
+           
+      */
+
+h1{
+  color: blue;
+}
+h2{
+  color: brown;
+}
+h3{
+  color: aqua;
+}
+/*
+body{
+  color: red;
+}
+*/
+/*div{
+  color: rgb(255, 0, 170);
+}*/
+.container{
+  color: blue;
+}
+.container.important{
+  color: yellow;
+}
+/* 1 0 0*/
+#text {
+  color: blueviolet;
+}
+input{
+  padding: 10px;
+  
+}
+/*Attribute selector*/ 
+[type=" password"]{
+  background-color: royalblue;
+}
+
+/*
+Score
+By default;
+id class tag
+*/
+/* Decendent Selector*/
+#First [type="button"]{
+  color: brown;
+}

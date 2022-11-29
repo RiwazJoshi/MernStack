@@ -1,0 +1,36 @@
+/*body{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}*/
+body.dark{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.651);
+    }
+    #Light{
+        display: none;
+    }
+    .dark #Light{
+        display: inline;
+    }
+    .dark #Dark{
+        display: none;
+    }
+    
+input{
+    color: blue;
+}
+input:focus{
+    background-color: blue;
+    color: yellow;
+}
+button:hover{
+    background-color: red;
+    color: yellow;
+}
+.required-el{
+    color: blue;
+}
+form :nth-child(3){
+    background-color: blueviolet;
+}

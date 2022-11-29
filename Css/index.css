@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+body{
+    background-color: rgb(251, 255, 0);
+}
+text{
+    color: red;
+}
+p{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}

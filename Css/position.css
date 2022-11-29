@@ -1,0 +1,77 @@
+
+.container div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+        margin: 10px;
+        padding: 10px;
+        background-color: blue;
+}
+.Static{
+    position: static;
+}
+.Relative{
+    position: relative;
+}
+    .Absolute{
+        position: absolute;
+       /*right: 80px;
+       top: 00px;*/
+      height: 500px;
+       width: 500px;
+       background-color: blueviolet;
+    }
+    .Fixed{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    }
+/*.Sticky{
+    font-style: italic;
+    position:Sticky;
+    top:0;
+    background-color: darkgreen;
+    width: 100vw;
+}
+*/
+
+.second{
+    background-color: blue;
+    position: sticky;
+ top: 0;
+}
+.Sticky-relative{
+    position: relative;
+}
+.again{
+    background-color: red;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.again.one{
+    background-color: black;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 40px;
+    color: white;
+}
+.again.two{
+    background-color: rgb(0, 255, 13);
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 60px;
+    color: white;
+}
+.again.three{
+    background-color: rgb(248, 6, 175);
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 80px;
+    color: white;
+}
+

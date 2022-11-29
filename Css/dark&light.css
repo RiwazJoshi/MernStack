@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+body.DarkMode{
+    background-color: black;
+    color: white;
+}
+
+body.lightMode{
+    background-color: white;
+    color: black;
+}
+   
+button:hover{
+    background-color: brown;
+    color: aqua;
+}
+input:focus{
+    background-color: blue;
+    color: brown;
+}
+a:visited{
+    color: green;
+}
+/*button:nth-child(4){
+    display: none;
+}*/
+
+#btnLight{
+    display: none;
+}
+.DarkMode #btnLight{
+    display: inline;
+}
+.DarkMode #btnDark{
+    display: none;
+}
+
+
