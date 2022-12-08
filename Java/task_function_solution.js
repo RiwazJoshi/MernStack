@@ -18,11 +18,15 @@ let persons = [
     },
 ]
 function userDetails(index) {
-   console.log("name is" + " " + persons[index].first_name + " " + persons[index].last_name + " " + "and age is" + " " + persons[index].age); 
+    //    console.log("name is" + " " + persons[index].first_name + " " + persons[index].last_name + " " + "and age is" + " " + persons[index].age); 
+    console.log(`name is ${persons[index].first_name} ${persons[index].last_name} and age is ${persons[index].age}`)
 }
-userDetails(0)
-userDetails(1)
-userDetails(2)
+for (i = 0; i < persons.length; i++) {
+    userDetails(i)
+}
+// userDetails(0)
+// userDetails(1)
+// userDetails(2)
 
 
 /* 

@@ -10,13 +10,13 @@
                 - price
                 - duration
 */
-let  students = [
+let students = [
     {
-     roll: 1,
-     name:"ram",
-     course:[ name = "mernStack" ,price ="15,0000", duration ="70 Days"]
-     
+        roll: 1,
+        name: "ram",
+        course: [{name: "mernStack", price: "15,0000", duration :"70 Days"}]
+
 
     }
 ]
-console.log(students);
+console.log(JSON.stringify(students));
