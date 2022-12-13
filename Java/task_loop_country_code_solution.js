@@ -2421,16 +2421,24 @@ let countries = [
     
 */
 
-// function printCountryCode(index) {
-//     console.log(`Country code is ${countries[index].name}`);
-    
-// }
-//     for (let i = 0; i <= countries.length; i++) {
-//         printCountryCode(index)
-// }
+// function printCountryCode(name) {
+//     for (let i = 0; i < countries.length; i++) {
 
-let printCountryCode = (name)=>{
-    console.log(`country code is ${countries[name].code} `);
-}
-printCountryCode(nepal)
+//         if (countries[i].name == name) {
+            
+//             console.log(`Country code is ${countries[i].code}`);
+//         }
+// }   
+// }
+// printCountryCode("Zimbabwe")
+
+// let printCountryCode = (name)=>{
     
+//     for (let i = 0; i < countries.length; i++) {
+//         if (countries[i].name == name) {
+            
+//             console.log(`country code is ${countries[i].code} `);
+//          }
+//         }
+//     }
+//      printCountryCode("Nepal")

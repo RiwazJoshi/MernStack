@@ -11,7 +11,7 @@
     <script src="./form.js"></script>
     <h1><center>Form </center></h1>
 
-      <form onsubmit="call value()">
+      <form id="userDetails">
         <div>
             <label>Username</label>
             <input type="text" id=Username placeholder="Username">
@@ -41,7 +41,7 @@
         <input type="checkbox">
         </div>
         <div>
-            <button  type="onclick" id="button send">Submit</button>
+            <button  type="onclick" onsubmit= "getUserDetails()">Submit</button>
         </div>
 <a href="./Table.html"> Go To Table</a>
       </form>
